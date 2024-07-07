@@ -33,7 +33,7 @@
              <a href="quenMK.php">Quên mật khẩu</a>
         </div>
     <?php
-        $conn = mysqli_connect("localhost","root","","chvanphongpham");
+        $conn = mysqli_connect("localhost","root","admin","vanphongpham");
         if(!$conn){
             die("Kết nối thất bại");
             exit();
